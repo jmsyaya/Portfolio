@@ -2,15 +2,15 @@ import React, { useState } from "react";
 
 const headerNav = [
     {
-        title: "intro",
+        title: "Intro",
         url: "#intro"
     },
     {
-        title: "skill",
+        title: "Skill",
         url: "#skill"
     },
     {
-        title: "site",
+        title: "Project",
         url: "#site"
     },
     {

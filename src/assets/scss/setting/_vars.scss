@@ -4,7 +4,7 @@
     --mainNum-font: "gmarket";
   
     --mainBg-image:url("https://github.com/jmsyaya/Portfolio/assets/63501931/43116f47-6595-45f2-b6b9-004a2cb4f4bc");
-    //--mainBg-color: #e8e8e8;    //#f3ede8;
+    --mainBg-color: #e8e8e8;    //#f3ede8;
     --subBg100: #cdc0b1;
     --subBg200: #afa395;
     --subBg300: #81887c;
@@ -36,6 +36,10 @@
 }
   
 body {
-   // background-color: var(--mainBg-color);
-   background-image: var(--mainBg-image);
+    // background-color: var(--mainBg-color);
+    background-image: var(--mainBg-image);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    background-attachment: fixed;
 }
