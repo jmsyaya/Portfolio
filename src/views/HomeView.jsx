@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Header from "../components/Header";
 import Intro from "../components/Intro";
 import Skill from "../components/Skill";
@@ -10,8 +10,19 @@ import Skip from "../components/Skip";
 import Main from "../components/Main";
 
 const HomeView = () => {
+    const [loading, setLoading] = useState(true);
+
+    useEffect(() => {
+        setTimeout(() => {
+            setLoading(false)
+        }, 300)
+    }, []);
+
+    const homeViewClass = loading ? 'is-loading' : 'is-loaded';
+
     return (
     <>
+    <section id="homeview" className={homeViewClass}>
         <Skip />
         <Header />
         <Main>
@@ -22,6 +33,7 @@ const HomeView = () => {
             <Contact />
         </Main>
         <Footer />
+    </section>
     </>
     );
 };
