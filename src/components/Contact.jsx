@@ -1,53 +1,16 @@
 import React from "react";
-
-const contactText = [
-  {
-      link: "https://open.kakao.com/me/jmsyaya",
-      title: "Kakao : jmsyaya",
-  },
-  {
-      link: "mailto:myeongsikjeong@gmail.com",
-      title: "Mail : myeongsikjeong@gmail.com",
-  },
-];
+import { contactText } from "../constants"; 
 
 const Contact = () => {
     return (
         <section id="contact">
             <div className="contact__inner">
-                <h2 className="contact__title">Contact</h2>
-                <div className="contact__lines top" aria-hidden="true">
-                    <span className="line"></span>
-                    <span className="line"></span>
-                    <span className="line"></span>
-                    <span className="line"></span>
-                    <span className="line"></span>
-                    <span className="line"></span>
-                    <span className="line"></span>
-                </div>
+                <h2 className="contact__title">Thank You</h2>
+                <h2 className="contact__title2">감사합니다 :)</h2>
                 <div className="contact__text">
                     <div className="text">
-                      {contactText.map((contact, key) =>(
-                        <div key={key}>
-                        <a 
-                          href={contact.link}
-                          target="_blank" 
-                          rel="noreferrer noopener"
-                          >
-                            {contact.title}
-                        </a>
+                    <span>끊임없이 배움에 열려있으며, 겸손한 자세로 세부적인 부분까지 앞으로의 트렌드에 맞는 프론트엔드 개발자가 되겠습니다.</span>
                     </div>
-                      ))}
-                    </div>
-                </div>
-                <div className="contact__lines" aria-hidden="true">
-                    <span className="line"></span>
-                    <span className="line"></span>
-                    <span className="line"></span>
-                    <span className="line"></span>
-                    <span className="line"></span>
-                    <span className="line"></span>
-                    <span className="line"></span>
                 </div>
             </div>
         </section>

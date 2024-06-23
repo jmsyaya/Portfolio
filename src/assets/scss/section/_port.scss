@@ -19,6 +19,16 @@
         margin-bottom: 16px;
         text-indent: -0.26vw;
 
+        @media (max-width: 800px){ 
+            width: 100%;
+            margin-bottom: 10vw;
+            font-size: 30px;
+            height: auto;
+            top: 68px;
+            z-index: 1000;
+            background-color: var(--mainBg-color);
+        }
+
         em {
             font-size: 1.25rem;
             font-weight: 400;
@@ -31,41 +41,50 @@
         width: 7000px;
 
         .port__item {
-            width: 500px;
+            width: 700px;
             height: 70vh;
-            background-color: var(--subBg100);
+            // background-color: var(--subBg100);
             padding: 2.5rem;
             margin-right: 20px;
 
+            @media (max-width: 1280px) {
+                width: 550px;
+                height: 70vh;
+                padding: 2rem;
+                margin-right: 10px;
+            }
+
+            @media (max-width: 800px) {
+                width: 350px;
+                height: 70vh;
+                padding: 2rem;
+                margin-right: 10px;
+            }
+
             &.p1 {
-                background-color: var(--subBg100);
+               // background-color: var(--subBg100);
+                // background-size: cover;
+                // background-repeat: no-repeat;
+                // position: relative;
+                // z-index: 1;
             }
             &.p2 {
-                background-color: var(--subBg200);
+                // background-color: var(--subBg200);
             }
             &.p3 {
-                background-color: var(--subBg300);
+                // background-color: var(--subBg300);
             }
             &.p4 {
-                background-color: var(--subBg400);
+                // background-color: var(--subBg400);
             }
             &.p5 {
-                background-color: var(--subBg500);
+                // background-color: var(--subBg500);
             }
             &.p6 {
-                background-color: var(--subBg100);
+                // background-color: var(--subBg100);
             }
             &.p7 {
-                background-color: var(--subBg200);
-            }
-            &.p8 {
-                background-color: var(--subBg300);
-            }
-            &.p9 {
-                background-color: var(--subBg400);
-            }
-            &.p10 {
-                background-color: var(--subBg500);
+                // background-color: var(--subBg200);
             }
             .num {
                 font-size: 2rem;
@@ -76,17 +95,19 @@
                 margin-top: -20px;
                 transition: margin-top 0.3s;
 
+
                 img {
-                    border-radius: 5px;
-                    filter: saturate(0%);
+                    border-radius: 34px;
+                    filter: saturate(100%);
                     transition: all 0.3s;
+                    box-shadow: 16px 16px 11px -4px #0e0e0e;
                 }
                 
                 &:hover {
                     margin-top: 0;
 
                     img {
-                        filter: saturate(100%);
+                        filter: saturate(0%);
                     }
                 }
             }
@@ -101,6 +122,7 @@
             }
             .desc {
                 font-size: 1rem;
+                white-space:pre-wrap;
             }
             .site {
                 border: 1px solid var(--black100);
