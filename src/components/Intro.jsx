@@ -1,7 +1,7 @@
 import React from "react";
 
 import { introText } from "../constants"; 
-import jms from "../assets/img/jmsyaya.png";
+// import jms from "../assets/img/jmsyaya.png";
 
 
 const Intro = () => {
@@ -26,7 +26,7 @@ const Intro = () => {
                         <div>{introText.desc[2]}</div>
                     </div>
                     <div className="img">
-                        <img src={jms} alt="어바웃" />
+                        <img src="https://sik-portfolio.s3.ap-northeast-2.amazonaws.com/jmsyaya.png" alt="어바웃" />
                     </div> 
                 </div>
                 <div className="intro__lines bottom" aria-hidden="true">
