@@ -1,12 +1,10 @@
-# 정명식 Portfolio (미완성! 수정필요!)
+# 정명식 Portfolio
 
-(말 쓰기)
-
-[react.js](https://github.com/jmsyaya/Portfolio)를 이용하여 사이트를 제작합니다.
+[react.js](https://github.com/jmsyaya/Portfolio)와 SCSS를 이용하여 저의 개인 포트폴리오 웹페이지를 제작하였습니다.
 
 ## 완성작 보기
 
-미리보기 :
+미리보기 : https://sik-portfolio.vercel.app/ & https://sik-portfolio.netlify.app/
 
 ## 사용 스택
 
@@ -26,4 +24,3 @@
 - gsap를 설치합니다. `npm install gsap`
 - lenis를 설치합니다. `npm install @studio-freight/lenis`
 
-# Portfolio
