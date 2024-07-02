@@ -15,7 +15,7 @@
     }
 
     .contact__title {
-        font-size: 12vw;
+        font-size: 10vw;
         // text-transform: uppercase;
         line-height: 1;
         font-weight: 800;
@@ -34,17 +34,17 @@
         }
     }
     .contact__title2 {
-        font-size: 5vw;
+        font-size: 4vw;
         // text-transform: uppercase;
         line-height: 1;
-        font-weight: 700;
+        font-weight: 600;
         z-index: 300;
         white-space: nowrap;
         text-indent: -0.5vw;
         letter-spacing: -0.3vw;
         margin-left:auto;
         margin-right:auto;
-        margin-bottom: 2%;
+        margin-bottom: 7%;
         margin-top: -4%;
         display: flex;
         align-items: flex-start;
@@ -67,9 +67,10 @@
         position: relative;
 
         .text {
-            font-size: 1.5vw;
+            font-size: 1.3vw;
             line-height: 1;
             font-weight: 300;
+            margin-bottom: 10%;
             // text-transform: uppercase;
             // text-decoration: underline;
             text-align: center;

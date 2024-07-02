@@ -32,7 +32,7 @@ export const headerNav = [
 
 export const introText = {
     title:["Front-End","정명식"],
-    desc: ["talent is", "found at the end of the", "effort"],
+    desc: ["Talent is", "found at the end of the", "Effort"],
 };
 
 export const siteText = [
