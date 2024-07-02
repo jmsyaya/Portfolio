@@ -146,7 +146,7 @@ export const footerText = [
     {
         title: "E-mail",
         desc: "문의사항은 이메일로 보낼 수 있습니다.",
-        link: "mailto:myeongsikjeong@gmail.com",
+        link: "mailto:myeongsikjeong@gmail.com?subject=문의 드립니다! ",
     },
     {
         title: "Instagram",
