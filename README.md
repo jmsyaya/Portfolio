@@ -2,6 +2,8 @@
 
 [react.js](https://github.com/jmsyaya/Portfolio)와 SCSS를 이용하여 저의 개인 포트폴리오 웹페이지를 제작하였습니다.
 
+2024. 04 ~ing
+
 ## 완성작 보기
 
 미리보기 : https://sik-portfolio.vercel.app/ & https://sik-portfolio.netlify.app/
